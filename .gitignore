@@ -1,0 +1,5 @@
+.env
+model.txt
+
+.idea/
+.venv/
