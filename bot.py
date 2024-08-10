@@ -14,8 +14,8 @@ MAX_CONTENT_LEN = 250
 
 def generate_response(text: str, context_messages: list) -> str | None:
     """Generate a response from the AI model based on the input text and context messages."""
-    instructions = f"""
-Your name is {AI_NAME}.
+    ctx = '\n'.join(context_messages)
+    instructions = f"""Your name is {AI_NAME}.
 
 Only respond in short form (one sentence or so) as you are chatting in a chatroom, you don't need to repeat the name of the person you are responding to or worry about punctuation, capitalization or proper grammar. Write like you are a human chatting in a chatroom and not a bot.
 
@@ -29,8 +29,7 @@ MESSAGE_END
 
 Here is some context you can base your response on, but it might not be relevant. You should only take the first couple of lines into account, but you can use more if you want to. The most recent messages are at the bottom:
 
-{"\n".join(context_messages[-5:])}
-
+{ctx}
 """
 
     try:
