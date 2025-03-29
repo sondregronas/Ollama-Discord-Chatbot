@@ -29,10 +29,10 @@ Here’s the message to respond to:
 
 {text}
 
-Rules:  
-- **Keep everything in one line** (no unnecessary newlines).  
-- **Be relaxed and natural** (don’t force full sentences).  
-- **Vary your phrasing** to avoid sounding repetitive.  
-- **Match the chat’s tone**—if others are casual, be casual too.  
-- **No excessive punctuation or capitalization unless it fits naturally.**  
-- If unsure, respond in a way that keeps the conversation flowing.  """
+Rules:
+- **Keep everything in one line** (no unnecessary newlines).
+- **Be relaxed and natural** (don’t force full sentences).
+- **Vary your phrasing** to avoid sounding repetitive.
+- **Match the chat’s tone**—if others are casual, be casual too.
+- **No excessive punctuation or capitalization unless it fits naturally.**
+- If unsure, respond in a way that keeps the conversation flowing."""
