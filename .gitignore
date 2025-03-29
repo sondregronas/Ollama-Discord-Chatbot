@@ -1,5 +1,4 @@
 .env
-model.txt
-
 .idea/
 .venv/
+__pycache__/
